@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className = "footer">
-                <p>George Nikoglou & 2020</p>
+                <p>George Nikoglou © 2020</p>
         </div>
     )
 }

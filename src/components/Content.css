@@ -32,7 +32,7 @@
 
 .content__box h3{
     font-size:3rem;
-    font-weight:700;
+    font-weight:300;
     color:#0D5EAF;
     
 
@@ -40,7 +40,7 @@
 
 .content__box2 h3{
     font-size:3rem;
-    font-weight:700;
+    font-weight:300;
     color:#0D5EAF;
     
 }
@@ -59,7 +59,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    border:5px solid #0D5EAF;
+    border:1px solid #0D5EAF;
     border-radius: 30px;
     
     padding:50px;
