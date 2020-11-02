@@ -1,6 +1,12 @@
 import React from 'react'
 import './Content.css'
-import gsap from 'gsap'
+import { motion } from "framer-motion"
+
+
+const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1},
+}
 
 
 
@@ -10,17 +16,28 @@ function Content() {
             <div className="content__section">
 
                 <div className="content__box">
-                    <div className="content__info">
+                    <motion.div 
+                    transition={{duration:1.5}}
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    className="content__info">
                         <h3 id="1">Yesterday:</h3>
                         <p id="2">80</p>
-                    </div>
+                    </motion.div>
                 </div>
 
                 <div className="content__box2">
-                    <div className="content__info">
+                    <motion.div
+                    transition={{duration:3}}
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    
+                    className="content__info">
                         <h3>Last 30 days:</h3>
                         <p>1500</p>
-                    </div>
+                    </motion.div>
                 </div>
 
 
