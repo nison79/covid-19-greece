@@ -1,5 +1,8 @@
 import React from 'react'
 import './Content.css'
+import gsap from 'gsap'
+
+
 
 function Content() {
     return (
@@ -8,8 +11,8 @@ function Content() {
 
                 <div className="content__box">
                     <div className="content__info">
-                        <h3>Yesterday:</h3>
-                        <p>80</p>
+                        <h3 id="1">Yesterday:</h3>
+                        <p id="2">80</p>
                     </div>
                 </div>
 
